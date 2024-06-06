@@ -22,8 +22,7 @@ in degrees per second.
 Here is an extremely basic `func_rotate` implementation in QuakeC for FTE:
 
 ```c
-enumflags
-{
+enumflags {
 	FUNC_ROTATE_X_AXIS,
 	FUNC_ROTATE_Y_AXIS,
 	FUNC_ROTATE_Z_AXIS
@@ -39,7 +38,7 @@ void func_rotate_think()
 	if (self.spawnflags & FUNC_ROTATE_Z_AXIS)
 		self.avelocity.z = self.speed;
 
-	self.nextthink = time + 0.1;
+	self.nextthink = self.ltime + 0.1;
 }
 
 void func_rotate()
@@ -52,6 +51,6 @@ void func_rotate()
 
 	// start thinking
 	self.think = func_rotate_think;
-	self.nextthink = time + 0.1;
+	self.nextthink = self.ltime + 0.1;
 }
 ```
