@@ -73,5 +73,5 @@ Here are the known extended chunk types:
 
 | Value | Description |
 |---|---|
-| `MAPSET` | Map headers |
-| `MAPINFO` | JSON data with metadata |
+| `MAPSET` | 100 map headers |
+| `MAPINFO` | JSON file with metadata |
