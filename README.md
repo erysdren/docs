@@ -1,9 +1,15 @@
 
-# FTEQW Documentation
+# Documentation
 
-Here are some random bits of documentation and notes I have learned after using
-FTEQW for a few years.
+Random bits of documentation I have written.
 
-- [FTEQW, GLSL, and You](./fteqw_glsl_and_you.md)
-- [Rotating Brushes](./rotating_brushes.md)
-- [Spawning Entities From External BSPs](./spawning_entities_from_external_bsps.md)
+## File Formats
+
+- [PAK](./formats/pak.md)
+- [WAD](./formats/wad.md)
+
+## FTEQW
+
+- [FTEQW, GLSL, and You](./fteqw/fteqw_glsl_and_you.md)
+- [Rotating Brushes](./fteqw/rotating_brushes.md)
+- [Spawning Entities From External BSPs](./fteqw/spawning_entities_from_external_bsps.md)
