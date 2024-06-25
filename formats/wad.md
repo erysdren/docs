@@ -42,7 +42,7 @@ the lump table entry structure which looked like this:
 Known type value meanings:
 
 | Value | Description |
-|---|---|---|
+|---|---|
 | 0x08 | Palette |
 | 0x0B | Mip texture |
 | 0x11 | Colormap |
