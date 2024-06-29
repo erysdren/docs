@@ -22,3 +22,4 @@ Random bits of documentation I have written.
 ## Other
 
 - [Fonts](./fonts/README.md)
+- [Palettes](./palettes/README.md)
