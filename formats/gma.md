@@ -8,7 +8,7 @@ little-endian byte order.
 **NOTE:** This file format is full of null-terminated data, and thus there are
 no reliable offsets except for the header. Most offsets will be omitted.
 
-**NOTE:** It is unknown how the CRCs in this format are calculated.
+**NOTE:** I don't know how the CRCs in this format are calculated.
 
 ## Header
 
