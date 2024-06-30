@@ -36,8 +36,8 @@ indiciating the addon version.
 The directory is a null-terminated list of files contained in the addon. The
 directory entry structure is as follows:
 
-1. 32-bit unsigned integer containing the file's ID, starting at 1. If this value
-is 0, then you've reached the end of the file directory.
+1. 32-bit unsigned integer containing the file's ID, starting at 1. If this
+value is 0, then you've reached the end of the file directory.
 2. Null-terminated string containing the path to the file, relative to the
 Garry's Mod game directory.
 3. 64-bit unsigned integer containing the file's size.
