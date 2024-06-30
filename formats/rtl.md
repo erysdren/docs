@@ -26,6 +26,8 @@ There's also two different known versions:
 | `0x0101` | Version 1.1 |
 | `0x0200` | Version 2.0 (Ludicrous Edition) |
 
+## Header
+
 File header structure:
 
 | Offset | Size | Description |
