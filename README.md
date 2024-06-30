@@ -5,6 +5,7 @@ Random bits of documentation I have written.
 
 ## File Formats
 
+- [GMA](./formats/gma.md)
 - [PAK](./formats/pak.md)
 - [RTL](./formats/rtl.md)
 - [WAD](./formats/wad.md)
