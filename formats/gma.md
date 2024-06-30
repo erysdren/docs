@@ -3,7 +3,7 @@
 
 The GMA (Garry's Mod Addon) file format is a basic container for user-created
 files for use in the game Garry's Mod. The values here are assumed to be in
-little-endian byte order.
+little-endian byte order. It usually ends with the `.gma` file extension.
 
 **NOTE:** This file format is full of null-terminated data, and thus there are
 no reliable offsets except for the header. Most offsets will be omitted.
