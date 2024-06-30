@@ -5,9 +5,17 @@ Random bits of documentation I have written.
 
 ## File Formats
 
-- [GMA](./formats/gma.md)
-- [PAK](./formats/pak.md)
+### Apogee Software
+
 - [RTL](./formats/rtl.md)
+
+### Facepunch Studios
+
+- [GMA](./formats/gma.md)
+
+### id Software
+
+- [PAK](./formats/pak.md)
 - [WAD](./formats/wad.md)
 
 ## FTEQW
