@@ -32,3 +32,4 @@ Random bits of documentation I have written.
 
 - [Fonts](./fonts/)
 - [Palettes](./palettes/)
+- [VGA Text Mode](./other/vgatext.md)
