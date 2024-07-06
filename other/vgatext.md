@@ -35,5 +35,5 @@ color. Since it is 4 bits wide, it can use the whole 16 color range.
 
 ## Further Reading
 
-- [StackExchange: What are the blinking rates of the caret and of blinking text on PC graphics cards in text mode?](https://retrocomputing.stackexchange.com/questions/27803/what-are-the-blinking-rates-of-the-caret-and-of-blinking-text-on-pc-graphics-car)
+- [StackExchange: What are the blinking rates of the caret and of blinking text on PC graphics cards in text mode?](https://retrocomputing.stackexchange.com/a/27805) ([Mirror](./stackoverflow_27805.md))
 - [Wikipedia: VGA text mode](https://en.wikipedia.org/wiki/VGA_text_mode)
