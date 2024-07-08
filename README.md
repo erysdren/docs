@@ -30,6 +30,7 @@ Random bits of documentation I have written.
 
 ## Network Protocols
 
+- [Finger (RFC 742, RFC 1288)](./net/finger.md)
 - [Rise of The Triad](./net/rottnet.md)
 
 ## Other
