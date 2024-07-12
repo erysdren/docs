@@ -6,6 +6,9 @@ as a way to get information about who was logged in on a remote server, and
 and what they were working on. By the late 1990s it had gone out of favor as it
 had been superceded by more secure protocols and the World Wide Web.
 
+[Here](https://gist.github.com/erysdren/76543b72935ea9c9228f00769ea9c44f) is a
+minimal example of the Finger protocol implemented in Python 3.
+
 ## Server
 
 It runs over TCP on port 79 and essentially consists of one request and one
