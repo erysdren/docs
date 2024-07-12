@@ -28,8 +28,9 @@ that client. This is primarily used for drawing things like particles, sprites,
 complex HUD effects or anything else that other players shouldn't be able to
 see.
 
-NOTE: This document is absolutely not complete, and it likely never will be. I
-just wanted to try and write out what I know to hopefully be useful to others.
+**NOTE**: This document is absolutely not complete, and it likely never will
+be. I just wanted to try and write out what I know to hopefully be useful to
+others.
 
 ## QuakeC Entry Points
 
