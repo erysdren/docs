@@ -23,6 +23,11 @@ the `CSQC` preprocessor macro defined and the additional extensions made
 available with a different "defs" file. When compiled, it should be named
 `csprogs.dat` and placed in the game folder alongside the standard `progs.dat`.
 
+CSQC is also capable of having its own set of entities, which only exist to
+that client. This is primarily used for drawing things like particles, sprites,
+complex HUD effects or anything else that other players shouldn't be able to
+see.
+
 NOTE: This document is absolutely not complete, and it likely never will be. I
 just wanted to try and write out what I know to hopefully be useful to others.
 
@@ -34,6 +39,13 @@ just wanted to try and write out what I know to hopefully be useful to others.
 
 This function is called when the CSQC module is first loaded. The function
 arguments have no standard and may well contain anything.
+
+### CSQC_Shutdown
+
+`void() CSQC_Shutdown;`
+
+Called when the engine is shutting down or the client has been disconnected
+from a server. This is where you should save your persistent client settings.
 
 ### CSQC_DrawHud
 
