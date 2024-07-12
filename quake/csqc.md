@@ -34,17 +34,17 @@ others.
 
 ## QuakeC Entry Points
 
-### `void(float apilevel, string enginename, float engineversion) CSQC_Init;`
+### `void CSQC_Init(float apilevel, string enginename, float engineversion);`
 
 This function is called when the CSQC module is first loaded. The function
 arguments have no standard and may well contain anything.
 
-### `void() CSQC_Shutdown;`
+### `void CSQC_Shutdown();`
 
 Called when the engine is shutting down or the client has been disconnected
 from a server. This is where you should save your persistent client settings.
 
-### `void(vector virtsize, float showscores) CSQC_DrawHud;`
+### `void CSQC_DrawHud(vector virtsize, float showscores);`
 
 This is part of the "SimpleCSQC" subset. If the programmer does not wish to
 handle drawing the full screen (or the engine does not allow that control), you
@@ -52,12 +52,12 @@ can implement this instead. `virtsize` is the size of the screen area in
 virtual pixels, and `showscores` is a boolean indicating whether or not the
 user is requesting to see the multiplayer scoreboard.
 
-### `void(vector virtsize, float showscores) CSQC_DrawScores;`
+### `void CSQC_DrawScores(vector virtsize, float showscores);`
 
 This is also part of "SimpleCSQC". This will be called by the engine when the
 client is viewing the multiplayer scoreboard.
 
-### `void(float vwidth, float vheight, float notmenu) CSQC_UpdateView;`
+### `void CSQC_UpdateView(float vwidth, float vheight, float notmenu);`
 
 This function gives you full control over the rendered screen. `vwidth` is the
 width of the screen in virtual pixels, and `vheight` is the height. `notmenu`
