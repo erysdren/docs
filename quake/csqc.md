@@ -52,11 +52,11 @@ from a server. This is where you should save your persistent client settings.
 
 `void(vector virtsize, float showscores) CSQC_DrawHud;`
 
-This is part of the "SimpleCSQC" subset. If the user does not wish to handle
-drawing the full screen (or the engine does not allow that control), you can
-implement this instead. `virtsize` is the size of the screen area in virtual
-pixels, and `showscores` is a boolean indicating whether or not the user is
-requesting to see the multiplayer scoreboard.
+This is part of the "SimpleCSQC" subset. If the programmer does not wish to
+handle drawing the full screen (or the engine does not allow that control), you
+can implement this instead. `virtsize` is the size of the screen area in
+virtual pixels, and `showscores` is a boolean indicating whether or not the
+user is requesting to see the multiplayer scoreboard.
 
 ### CSQC_DrawScores
 
