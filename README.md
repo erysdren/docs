@@ -41,4 +41,4 @@ Random bits of documentation I have written.
 
 ## Quake Engine
 
-- [CSQC Outline](./quake/csqc.md)
+- [CSQC Outline](./quake/csqc_outline.md)
