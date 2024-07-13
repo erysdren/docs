@@ -26,8 +26,8 @@ be kept in the final BSP file. Instead of keeping the entire convex brush
 shape, the QBSP tool "expands" the brushes to simulate collision for 3 distinct
 "hull sizes". These hull sizes are:
 
-| Name | Min | Max | Absolute |
-|---|---|---|---|
+| Name | Min | Max | Absolute | Notes |
+|---|---|---|---|---|
 | VEC_ORIGIN | `0 0 0` | `0 0 0` | `0 0 0` | This is an infinitesimally small point, used for small objects like grenades. |
 | VEC_HULL1 | `-16 -16 -24` | `16 16 32` | `32 32 56` | This is the "small" hull, used for most entities including the player. |
 | VEC_HULL2 |`-32 -32 -24` | `32 32 64` | `64 64 88` | This is the "large" hull, primarily used for the Shambler. |
